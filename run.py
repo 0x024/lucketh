@@ -13,6 +13,7 @@ def send_email_outlook(content):
     from_addr = 'luckethcoins@outlook.com'
     to_addrs = ['luckethcoin@outlook.com']
     subject = 'lucketh'
+
     body = content
     server = smtplib.SMTP('smtp.office365.com', 587)
     server.ehlo()
